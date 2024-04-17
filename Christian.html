@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #251d1c, #031731);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-top: 80px;
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+        .info-container {
+            flex: 2;
+            padding-left: 20px;
+            text-align: left;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #130c4b;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            position: absolute;
+            top: 22px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+        button:hover {
+            background-color: #000;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick="window.location.href='index.html'">
+        <span class="icon">⮝</span> Inicio
+    </button>
+    <div class="content">
+        <div class="image-container">
+            <img class="image" src="images\img4.jpg" alt="Imagen de presentación">
+        </div>
+        <div class="info-container">
+            <h1>Nombre: Christian Hurtado</h1>
+            <div>
+                <p><strong>Edad:</strong> 22 años</p>
+                <p><strong>Profesión:</strong> Estudiante de Ingeniería en Software</p>
+                <p><strong>Deportes favoritos:</strong> Fútbol, baloncesto</p>
+                <p><strong>Comidas favoritas:</strong> Pizza, sushi, tacos</p>
+                <p><strong>Juegos favoritos:</strong> The Legend of Zelda, Mario Kart</p>
+                <p><strong>Habilidades:</strong> Programación en Python, Java, C++, experiencia en desarrollo web con HTML, CSS, JavaScript.</p>
+                <p><strong>Intereses:</strong> Desarrollo de aplicaciones móviles, seguridad informática, diseño de interfaces.</p>
+                <p><strong>Objetivos:</strong> Graduarme con honores, conseguir un trabajo en una empresa de tecnología líder, viajar por el mundo.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
