@@ -40,6 +40,21 @@
         }
       }
 
+      .card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-img-top {
+        flex-grow: 1; 
+        object-fit: cover; 
+      }
+
+      .card-body {
+        flex-grow: 0; 
+      }
+
       .b-example-divider {
         width: 100%;
         height: 3rem;
@@ -282,285 +297,66 @@
       </section>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- Tarjeta 1: Steeven -->
         <div class="col">
           <div class="card shadow-sm">
-            <img src="/images/Steeven_Foto.jpg" class="bd-placeholder-img card-img-top" alt="Imagen de Steeven">
+            <img style="height: 300px; width: 250px;" src="/images/Steeven_Foto.jpg"  alt="Imagen de Steeven">
             <div class="card-body">
-              <p class="card-text">Hola mi nombre es Steeven Loor, soy estudiante de la Universidad Tecnica de Ambato, estoy cursando el 4 semestre de la carrera de Software</p>
+              <p class="card-text">Hola mi nombre es Steeven Loor, soy estudiante de la Universidad Técnica de Ambato, estoy cursando el 4 semestre de la carrera de Software</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="steeven.html">View</a></button>
-
+                  <a href="steeven.html" class="btn btn-sm btn-outline-secondary">View</a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/aracelly.jpg" />
-
-                <div class="card-body">
-                  <p class="card-text">
-                    Hola, Soy Aracelly de los Angeles y soy estudiante de la
-                    carrera de Software.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        <a href="aracelly.html">View</a>
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
+    
+        <!-- Tarjeta 2: Aracelly -->
         <div class="col">
           <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="450" src="images/Paul_Velastegui.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            <img style="height: 300px; width: 250px;" src="images/aracelly.jpg"  alt="Imagen de Aracelly">
             <div class="card-body">
-              <p class="card-text">Hola soy Anthony Paul Velastegui Eugenio tengo 20 años me gusta mucho el futbol tanto como verlo y practicarlo. 
-                Estudio en la Universidad tecnica de Ambato y curso 4 semestre de Ingeniera en Software. </p>
+              <p class="card-text">Hola, Soy Aracelly de los Ángeles y soy estudiante de la carrera de Software.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="paul.html">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </a>                
-                </div>
-              </div>
-            </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="images/img4.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" alt="Imagen de WhatsApp">
-            <div class="card-body">
-              <p class="card-text">Mi nombre es Christian Hurtado y estoy emocionado de unirme a esta comunidad. Soy un entusiasta de la tecnología y me apasiona todo lo relacionado con la innovación digital, desde inteligencia artificial y aprendizaje automático hasta desarrollo de software y seguridad cibernética.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='Christian.html'">View</button>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a href="aracelly.html" class="btn btn-sm btn-outline-secondary">View</a>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-
                 </div>
+                <small class="text-body-secondary">9 mins</small>
               </div>
             </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+          <!-- Tarjeta 1: Paul Velastegui -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img style="width: 250px; height: 300px;" src="/images/Paul_Velastegui.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Hola, soy Anthony Paul Velastegui Eugenio. Tengo 20 años y me gusta mucho el fútbol, tanto verlo como practicarlo. Estudio en la Universidad Técnica de Ambato y curso el 4to semestre de Ingeniería en Software.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="paul.html" class="btn btn-sm btn-outline-secondary">View</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      
+          <!-- Tarjeta 2: Christian Hurtado -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/img4.jpg" class="bd-placeholder-img card-img-top" alt="Imagen de Christian Hurtado" style="width: 250px; height: 300px;">
+              <div class="card-body">
+                <p class="card-text">Mi nombre es Christian Hurtado y estoy emocionado de unirme a esta comunidad. Soy un entusiasta de la tecnología y me apasiona todo lo relacionado con la innovación digital, desde inteligencia artificial y aprendizaje automático hasta desarrollo de software y seguridad cibernética.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='Christian.html'">View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
 
     <footer class="text-body-secondary py-5">
